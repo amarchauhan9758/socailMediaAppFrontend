@@ -50,3 +50,48 @@ This is a full-stack web application where users can sign up, log in, create pos
 - **Tooling:** Vite, dotenv
 
 ---
+
+## ⚙️ Local Setup Instructions
+
+📦 Prerequisites
+Node.js (v16 or later)
+
+MongoDB Atlas account (or local MongoDB)
+
+Yarn or npm
+
+Git
+
+## ✅ 1. Clone the Repository
+
+bash
+Copy
+Edit
+git clone https://github.com/amarchauhan9758/socailMediaAppFrontend
+cd social-post-app
+
+## ✅ 2. Setup Frontend
+
+cd ../frontend
+🔧 Install Dependencies
+
+npm install
+
+# or
+
+yarn install
+🗝️ Create .env file
+
+touch .env
+Add:
+
+## 3 VITE_BASE_URL=http://localhost:7777
+
+▶️ Run Frontend Dev Server
+
+npm run dev
+
+# or
+
+yarn dev
+It will start on http://localhost:5173.
