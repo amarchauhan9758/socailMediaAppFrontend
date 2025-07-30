@@ -4,6 +4,18 @@ This is a full-stack web application where users can sign up, log in, create pos
 
 ---
 
+## ⚠️ Note:
+
+In the login form, the email and password fields are pre-filled with test credentials (testUser) for easier testing and quicker access during development.
+
+This does not mean the user is already created in the database.
+
+If the testUser account doesn't exist, you'll need to click Sign Up to create it manually.
+
+You're free to use the pre-filled values for testing, or register your own credentials.
+
+## ✅ Auto-login if testUser exists
+
 ## 🚀 Features
 
 - 🔐 **Authentication**
@@ -68,7 +80,7 @@ bash
 Copy
 Edit
 git clone https://github.com/amarchauhan9758/socailMediaAppFrontend
-cd social-post-app
+cd socailMediaAppFrontend
 
 ## ✅ 2. Setup Frontend
 
