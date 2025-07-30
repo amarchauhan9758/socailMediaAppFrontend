@@ -35,7 +35,7 @@ export default function Navbar() {
       <nav className="   bg-white  px-6 py-3 flex  justify-evenly items-center ">
         {/* Left: Logo + Search */}
         <div className="flex  items-center gap-4">
-          <Link to="/" className="text-purple-600 font-bold text-xl">
+          <Link to="/post" className="text-purple-600 font-bold text-xl">
             Connecting Media
           </Link>
           <div className="relative">
@@ -54,7 +54,7 @@ export default function Navbar() {
         <div className="flex gap-8 text-sm text-gray-700">
           <div className="flex flex-col items-center cursor-pointer hover:text-purple-600">
             <Home size={20} />
-            <Link to="/">Home</Link>
+            <Link to="/post">Home</Link>
           </div>
           <div className="flex flex-col items-center cursor-pointer hover:text-purple-600">
             <Users size={20} />

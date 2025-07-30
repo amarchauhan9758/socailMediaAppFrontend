@@ -30,7 +30,7 @@ function Login() {
       );
       console.log(response);
       setOpenLoader(false);
-      navigate("/");
+      navigate("/post");
       dispatch(addUser(response?.data?.data));
     } catch (error) {
       console.log(error.message);
